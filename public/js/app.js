@@ -58,4 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
   darkModeButton.addEventListener("click", () => {
     darkModify(false);
   });
+
+  const sub2footer = document.getElementsByClassName("sub2Footer");
+
+  addEventListener("click", () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  })
 });
